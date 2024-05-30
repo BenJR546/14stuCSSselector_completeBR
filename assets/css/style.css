@@ -1,0 +1,33 @@
+/* A selector maked with an asterisk (*) is a universal selector, it will apply to all elements within the HTML file */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* A selector with no prefix that matches an element will apply to all elements it matches (in this example, all script between <body> and </body> will be selected) */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* A selector with a period prefix selects all elements of a certain class */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* A selector with a hash prefix is an ID selector, it will only apply to sections or script marked with that specific ID */
+#contact-section {
+  background-color: #f0ead6;
+}
